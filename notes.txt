@@ -1,0 +1,7 @@
+Dataloader ideas :
+
+global_int -> (Hest_ID, spot_num)
+want the distributed sampler to keep individual hest datasets segregated as much as possible
+so that each worker only needs to load the memory it needs
+
+
